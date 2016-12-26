@@ -1,0 +1,2 @@
+rootProject.name = 'eventuate'
+include 'eventuate-common'
