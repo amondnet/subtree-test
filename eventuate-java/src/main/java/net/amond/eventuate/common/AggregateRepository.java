@@ -133,7 +133,7 @@ public class AggregateRepository<T extends Aggregate> {
   }
 
   private String getStreamName(Class type, UUID id) {
-    return String.format("%s-%s", type.getName(), id);
+    return String.format("%s-%s", type.getSimpleName(), id);
   }
 
   public EventData toEventData(Object message, Map<String, Object> headers) {

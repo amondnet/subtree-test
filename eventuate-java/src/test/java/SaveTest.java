@@ -1,9 +1,8 @@
+import co.test.Asdf;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.github.msemys.esjc.EventData;
 import com.github.msemys.esjc.EventStore;
 import com.github.msemys.esjc.EventStoreBuilder;
-import com.github.msemys.esjc.ExpectedVersion;
 import java.util.UUID;
 import java.util.concurrent.ExecutionException;
 import net.amond.eventuate.common.AggregateRepository;
@@ -40,5 +39,15 @@ public class SaveTest {
         .singleNodeAddress("127.0.0.1", 1113)
         .userCredentials("admin", "changeit")
         .build();
+  }
+
+
+  @Test
+  public void test() {
+
+    System.out.println( Asdf.class.getName() );
+    System.out.println( Asdf.class.getTypeName() );
+    System.out.println( Asdf.class.getSimpleName() );
+
   }
 }

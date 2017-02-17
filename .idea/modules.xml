@@ -4,7 +4,6 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/eventuate.iml" filepath="$PROJECT_DIR$/.idea/modules/eventuate.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/eventuate-java/eventuate-java.iml" filepath="$PROJECT_DIR$/.idea/modules/eventuate-java/eventuate-java.iml" />
-      <module fileurl="file://$PROJECT_DIR$/eventuate-kotlin/eventuate-kotlin.iml" filepath="$PROJECT_DIR$/eventuate-kotlin/eventuate-kotlin.iml" />
     </modules>
   </component>
 </project>
